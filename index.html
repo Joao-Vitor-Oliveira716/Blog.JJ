@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+<body>
+    <h1>Meu Blog</h1>
+
+    <main>
+        <article>
+            <img src="" alt="">
+            <div>
+                <h2><p>Meu primeiro post</p></h2>
+                <p class="artigo.autor">Por:</p>
+                <p>Boas Vindas ao meu novo blog</p>
+                <button><span></span></button>
+                <button><span></span></button>
+            </div>
+        </article>
+    </main>
+</body>
+<script>
+    const botoes = document.querySelector("button");
+
+    botoes.forEach(function (botao) {
+        let curtiu = false;
+        botao.addEventListener("click", botaoClicado);
+        function botaoClicado(){
+            console.log("fui clicado");
+        }
+    });
+</script>
+</html>
