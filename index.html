@@ -1,35 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <link rel="stylesheet" href="stylle.css">
 </head>
+<header>
 <body>
     <h1>Meu Blog</h1>
 
     <main>
         <article>
-            <img src="" alt="">
+            <img src="" alt="desenho de paisagem">
             <div>
                 <h2><p>Meu primeiro post</p></h2>
                 <p class="artigo.autor">Por:</p>
                 <p>Boas Vindas ao meu novo blog</p>
-                <button><span></span></button>
-                <button><span></span></button>
+                <button>🖌️<span>0</span></button>
+                <button>🖼️<span>0</span></button>
             </div>
         </article>
     </main>
+</header>
 </body>
-<script>
-    const botoes = document.querySelector("button");
-
-    botoes.forEach(function (botao) {
-        let curtiu = false;
-        botao.addEventListener("click", botaoClicado);
-        function botaoClicado(){
-            console.log("fui clicado");
-        }
-    });
-</script>
+<script src="script.js"></script>
 </html>
