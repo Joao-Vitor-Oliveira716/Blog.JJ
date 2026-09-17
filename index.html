@@ -1,150 +1,140 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link rel="stylesheet" href="stylle.css">
 </head>
-<header>
+<body>
 
-    <body>
+    <header>
         <h1>Meu Blog</h1>
+        <div class="post-meta">
+            Publicado em <span id="data-blog" class="data-destaque">Carregando data...</span>
+            Acesso em: <div class="relogio-post"></div>
+        </div>
+    </header>
 
-        <main>
+    <main>
+        <div class="linha-posts">
             <article>
-                <img src="img/pintura.jpg" alt="uma pintura">
+                <img src="img/pintura.jpg" alt="Uma pintura de uma mulher com trança e chapéu olhando para uma paisagem outonal">
                 <div>
-                    <h2>
-                        <p>Meu primeiro post</p>
-                    </h2>
-                    <p class="artigo.autor">Por:</p>
-                    <p>Boas Vindas ao meu novo blog</p>
-                    <p class="artigo.fonte">Fonte: <a href="https://images.pexels.com/photos/29279330/pexels-photo-29279330.jpeg"></a></p>
-                    <button>🖌️<span>0</span></button>
-                    <button>🖼️<span>0</span></button>
+                    <h2>Meu primeiro post</h2>
+
+                    <p class="artigo-autor">Por: Nome do Autor</p>
+                    <p>Boas-vindas ao meu novo blog!</p>
+                    <p class="artigo-fonte">Fonte: <a href="https://images.pexels.com/photos/29279330/pexels-photo-29279330.jpeg" target="_blank">Pexels</a></p>
+                    <button class="btn-reacao">🖌️ <span>0</span></button>
+                    <button class="btn-reacao">🖼️ <span>0</span></button>
                 </div>
             </article>
 
             <article>
-                <img src="img/coruja.jpg" alt="uma coruja">
+                <img src="img/coruja.jpg" alt="Close-up de uma coruja-das-torres com plumagem branca e marrada">
                 <div>
-                    <h2>
-                        <p>Meu segundo post</p>
-                    </h2>
-                    <p class="artigo.autor">Por:</p>
-                    <p>Boas Vindas ao meu novo blog</p>
-                    <p class="artigo.fonte">Fonte: <a href="https://images.pexels.com/photos/33871646/pexels-photo-33871646.jpeg"></a></p>
-                    <button>🪶<span>0</span></button>
-                    <button>🦉<span>0</span></button>
-                </div>
-            </article>
-            <article>
-                <img src="img/lobo.jpg" alt="um lobo">
-                <div>
-                    <h2>
-                        <p>Meu trceiro post</p>
-                    </h2>
-                    <p class="artigo.autor">Por:</p>
-                    <p>Boas Vindas ao meu novo blog</p>
-                    <p class="artigo.fonte">Fonte: <a href="https://www.pexels.com/pt-br/foto/lobo-preto-negro-animais-selvagens-11612103/"></a></p>
-                    <button>🌕<span>0</span></button>
-                    <button>🐺<span>0</span></button>
-                </div>
-            </article>
-
-        </main>
-        <main>
-            <article>
-                <img src="img/raposa.jpg" alt="uma raposa">
-                <div>
-                    <h2>
-                        <p>Meu quarto post</p>
-                    </h2>
-                    <p class="artigo.autor">Por:</p>
-                    <p>Boas Vindas ao meu novo blog</p>
-                    <p class="artigo.fonte">Fonte: <a href="https://www.pexels.com/pt-br/foto/raposa-prateada-majestosa-em-cena-de-inverno-nevado-35917778/"></a></p>
-                    <button>🌑<span>0</span></button>
-                    <button>🦊<span>0</span></button>
+                    <h2>Meu segundo post</h2>
+                    <p class="artigo-autor">Por: Nome do Autor</p>
+                    <p>Boas-vindas ao meu novo blog!</p>
+                    <p class="artigo-fonte">Fonte: <a href="https://images.pexels.com/photos/33871646/pexels-photo-33871646.jpeg" target="_blank">Pexels</a></p>
+                    <button class="btn-reacao">🪶 <span>0</span></button>
+                    <button class="btn-reacao">🦉 <span>0</span></button>
                 </div>
             </article>
 
             <article>
-                <img src="img/noite.jpg" alt="a noite">
+                <img src="img/lobo.jpg" alt="Um lobo negro em seu habitat selvagem">
                 <div>
-                    <h2>
-                        <p>Meu quinto post</p>
-                    </h2>
-                    <p class="artigo.autor">Por:</p>
-                    <p>Boas Vindas ao meu novo blog</p>
-                    <p class="artigo.fonte">Fonte: <a href="https://www.pexels.com/pt-br/foto/silhueta-de-um-observador-de-estrelas-contra-a-deslumbrante-via-lactea-28760143/"></a></p>
-                    <button>🌕<span>0</span></button>
-                    <button>⭐<span>0</span></button>
+                    <h2>Meu terceiro post</h2>
+                    <p class="artigo-autor">Por: Nome do Autor</p>
+                    <p>Boas-vindas ao meu novo blog!</p>
+                    <p class="artigo-fonte">Fonte: <a href="https://www.pexels.com/pt-br/foto/lobo-preto-negro-animais-selvagens-11612103/" target="_blank">Pexels</a></p>
+                    <button class="btn-reacao">🌕 <span>0</span></button>
+                    <button class="btn-reacao">🐺 <span>0</span></button>
                 </div>
             </article>
-            <article>
-                <img src="img/inverno.jpg" alt="o inverno">
-                <div>
-                    <h2>
-                        <p>Meu sexto post</p>
-                    </h2>
-                    <p class="artigo.autor">Por:</p>
-                    <p>Boas Vindas ao meu novo blog</p>
-                     <p class="artigo.fonte">Fonte: <a href="https://www.pexels.com/pt-br/foto/frio-com-frio-neve-inverno-19394489/"></a></p>
-                    <button>❄️<span>0</span></button>
-                    <button>☁️<span>0</span></button>
-                </div>
-            </article>
+        </div>
 
-        </main>
-        <main>
+        <div class="linha-posts">
             <article>
-                <img src="img/cobra.jpg" alt="uma cobra">
+                <img src="img/raposa.jpg" alt="Uma raposa prateada em uma cena de inverno com neve">
                 <div>
-                    <h2>
-                        <p>Meu setimo post</p>
-                    </h2>
-                    <p class="artigo.autor">Por:</p>
-                    <p>Boas Vindas ao meu novo blog</p>
-                     <p class="artigo.fonte">Fonte: <a href="https://www.pexels.com/pt-br/foto/close-up-de-cobra-monocled-em-habitat-natural-30076154/"></a></p>
-                    <button><span>0</span></button>
-                    <button><span>0</span></button>
+                    <h2>Meu quarto post</h2>
+                    <p class="artigo-autor">Por: Nome do Autor</p>
+                    <p>Boas-vindas ao meu novo blog!</p>
+                    <p class="artigo-fonte">Fonte: <a href="https://www.pexels.com/pt-br/foto/raposa-prateada-majestosa-em-cena-de-inverno-nevado-35917778/" target="_blank">Pexels</a></p>
+                    <button class="btn-reacao">🌑 <span>0</span></button>
+                    <button class="btn-reacao">🦊 <span>0</span></button>
                 </div>
             </article>
 
             <article>
-                <img src="img/flor.jpg" alt="uma flor">
+                <img src="img/noite.jpg" alt="Silhueta de um observador de estrelas contra a Via Láctea">
                 <div>
-                    <h2>
-                        <p>Meu oitavo post</p>
-                    </h2>
-                    <p class="artigo.autor">Por:</p>
-                    <p>Boas Vindas ao meu novo blog</p>
-                    <p class="artigo.fonte">Fonte: <a href="https://www.pexels.com/pt-br/foto/arbusto-de-gloria-roxo-vibrante-em-flor-37725016/"></a></p>
-                    <button><span>0</span></button>
-                    <button><span>0</span></button>
+                    <h2>Meu quinto post</h2>
+                    <p class="artigo-autor">Por: Nome do Autor</p>
+                    <p>Boas-vindas ao meu novo blog!</p>
+                    <p class="artigo-fonte">Fonte: <a href="https://pexels.com" target="_blank">Pexels</a></p>
+                    <button class="btn-reacao">🌕 <span>0</span></button>
+                    <button class="btn-reacao">⭐ <span>0</span></button>
                 </div>
             </article>
+
             <article>
-                <img src="img/cavaleiro.jpg" alt="um cavaleiro">
+                <img src="img/inverno.jpg" alt="Paisagem fria coberta de neve no inverno">
                 <div>
-                    <h2>
-                        <p>Meu nono post</p>
-                    </h2>
-                    <p class="artigo.autor">Por:</p>
-                    <p>Boas Vindas ao meu novo blog</p>
-                    <p class="artigo.fonte">Fonte: <a href="https://www.pexels.com/pt-br/foto/capacete-de-armadura-medieval-intrincadamente-gravado-31350032/"></a></p>
-                    <button><span>0</span></button>
-                    <button><span>0</span></button>
+                    <h2>Meu sexto post</h2>
+                    <p class="artigo-autor">Por: Nome do Autor</p>
+                    <p>Boas-vindas ao meu novo blog!</p>
+                    <p class="artigo-fonte">Fonte: <a href="https://www.pexels.com/pt-br/foto/frio-com-frio-neve-inverno-19394489/" target="_blank">Pexels</a></p>
+                    <button class="btn-reacao">❄️ <span>0</span></button>
+                    <button class="btn-reacao">☁️ <span>0</span></button>
+                </div>
+            </article>
+        </div>
+
+        <div class="linha-posts">
+            <article>
+                <img src="img/cobra.jpg" alt="Close-up de uma cobra monocled em seu habitat natural">
+                <div>
+                    <h2>Meu sétimo post</h2>
+                    <p class="artigo-autor">Por: Nome do Autor</p>
+                    <p>Boas-vindas ao meu novo blog!</p>
+                    <p class="artigo-fonte">Fonte: <a href="https://www.pexels.com/pt-br/foto/close-up-de-cobra-monocled-em-habitat-natural-30076154/" target="_blank">Pexels</a></p>
+                    <button class="btn-reacao">🐍 <span>0</span></button>
+                    <button class="btn-reacao">👁️ <span>0</span></button>
                 </div>
             </article>
 
-        </main>
+            <article>
+                <img src="img/flor.jpg" alt="Arbusto de glória roxo vibrante em flor">
+                <div>
+                    <h2>Meu oitavo post</h2>
+                    <p class="artigo-autor">Por: Nome do Autor</p>
+                    <p>Boas-vindas ao meu novo blog!</p>
+                    <p class="artigo-fonte">Fonte: <a href="https://www.pexels.com/pt-br/foto/arbusto-de-gloria-roxo-vibrante-em-flor-37725016/" target="_blank">Pexels</a></p>
+                    <button class="btn-reacao">🌸 <span>0</span></button>
+                    <button class="btn-reacao">🌿 <span>0</span></button>
+                </div>
+            </article>
 
+            <article>
+                <img src="img/cavaleiro.jpg" alt="Capacete de armadura medieval intrincadamente gravado">
+                <div>
+                    <h2>Meu nono post</h2>
+                    <p class="artigo-autor">Por: Nome do Autor</p>
+                    <p>Boas-vindas ao meu novo blog!</p>
+                    <p class="artigo-fonte">Fonte: <a href="https://www.pexels.com/pt-br/foto/capacete-de-armadura-medieval-intrincadamente-gravado-31350032/" target="_blank">Pexels</a></p>
+                    <button class="btn-reacao">🛡️ <span>0</span></button>
+                    <button class="btn-reacao">⚔️ <span>0</span></button>
+                </div>
+            </article>
+        </div>
+    </main>
 
-</header>
+    <script src="script.js"></script>
+    <script src="exibirDataAtual.js"></script>
+    <script src="dataHora.js"></script>
 </body>
-<script src="script.js"></script>
-
 </html>
