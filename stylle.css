@@ -20,8 +20,8 @@ main{
 }
 
 img{
-    width: 80px;
-    height: 80px;
+    width: 200px;
+    height: 200px;
 }
 
 article{
@@ -35,4 +35,33 @@ article{
 }
 .artigo-autor{
     font-weight: bold;
+}
+.post-meta{
+    font-size: 0.9rem;
+    color: #000000;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #2b61a3;
+    padding-bottom: 10px;
+}
+.data-destaque{
+    font-weight: 600;
+    color: #540069;
+    background-color: #FFD700;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+.data-hora{
+    font-weight: bold;
+    color: #000;
+}
+.relogio-post{
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: grey;
+    background-color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-top: 10px;
 }
